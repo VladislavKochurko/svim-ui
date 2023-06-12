@@ -1,0 +1,22 @@
+---
+tabWidth: 4
+printWidth: 120
+useTabs: false
+arrowParens: "avoid"
+importOrder: ["^(\\.+|src)\/"]
+importOrderSeparation: true
+importOrderCaseInsensitive: true
+importOrderSortSpecifiers: true
+importOrderParserPlugins: ["decorators-legacy", "typescript"]
+overrides:
+    - files: "*.component.html"
+      options:
+          parser: "angular"
+    - files: "*.ts"
+      options:
+          singleQuote: true
+          trailingComma: all
+    - files: "*.js"
+      options:
+          singleQuote: true
+          trailingComma: all
