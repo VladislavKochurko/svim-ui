@@ -1,0 +1,10 @@
+{
+    "*.(ts|component.html)": [
+        "eslint --fix",
+        "prettier --write"
+    ],
+    "*.scss": [
+        "stylelint --allow-empty-input",
+        "prettier --write"
+    ]
+}
